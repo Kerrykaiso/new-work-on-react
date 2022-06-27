@@ -43,6 +43,7 @@ function About (){
     return newDice
   }
   function reRun(){
+    
     if (!tenzies) {
       fresh(function (newRoll) {
         return newRoll.map(function (steady) {
